@@ -1,0 +1,216 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    margin: 0;
+}
+ul > li {
+    list-style: none;
+    text-decoration: none;
+}
+ul > a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.ul .li  {
+    padding: 0;
+    margin: 0;
+}
+.ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 15px;
+    border: 2px solid red;
+}
+/*по ДЗ ТЗ, но получается фігня
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+*/
+
+/*header*/
+
+.header {
+    background-color: yellowgreen;
+}
+.logo {
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+}
+.logo-header-accent {
+    color: #2e2f42;
+}
+
+.address {
+    font-style: normal;
+}
+.address-link-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.address-link-item:hover, .address-link-item:focus {
+    color: #404bbf;
+}
+
+.nav-link {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;   
+}
+
+.nav-link:hover, .nav-link:focus, .address-link:hover, .address-link:focus {
+    color: #404bbf;
+}
+/*!hero section 1*/
+.hero-section {
+    background-color: #2e2f42;
+}
+.hero-logo {
+    font-size: 56px;
+    line-height: 1.07; 
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    max-width: 500px;
+    /*хуйня с падінгом, перевірити*/
+
+}
+.hero-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    /*шото кріво с марлжином, проверіть;*/
+    margin: 48px auto 188px auto;
+}
+.hero-button:hover, .hero-button:focus {
+    background-color: #404BBF;
+}
+/*!pros section 2*/
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.pros-subheading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.pros-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*!team section 3*/
+.team-section {
+    background-color: #F4F4FD;
+}
+.team-heading {
+    color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-list-item {
+    background-color: #FFFFFF;
+}
+.team-subheading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.team-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*!portfolio section 4*/
+.portfolio-logo {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.portfolio-subheading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.portfolio-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*!footer section*/
+.basement {
+    background-color:  #2e2f42;
+}
+
+.logo-basement-accent {
+    color: #f4f4fd;
+}
+.basement-text {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+
+
+
+
