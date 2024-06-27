@@ -52,6 +52,7 @@ button {
 
 .header {
     background-color: yellowgreen;
+    border-bottom: 1px solid #e7e9fc;
 }
 .logo {
     text-decoration: none;
@@ -63,6 +64,7 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 .logo-header-accent {
     color: #2e2f42;
@@ -80,12 +82,21 @@ button {
 .address-link-item:hover, .address-link-item:focus {
     color: #404bbf;
 }
+.nav-general {
+    display: flex;
+    align-items: center;
+}
 
 .nav-link {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;   
+}
+.nav-list-item {
+    display: flex;
+    gap: 40px;
+
 }
 
 .nav-link:hover, .nav-link:focus, .address-link:hover, .address-link:focus {
@@ -94,6 +105,8 @@ button {
 /*!hero section 1*/
 .hero-section {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .hero-logo {
     font-size: 56px;
@@ -101,7 +114,7 @@ button {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    max-width: 500px;
+    max-width: 496px;
     /*хуйня с падінгом, перевірити*/
 
 }
@@ -115,13 +128,20 @@ button {
     color: #ffffff;
     cursor: pointer;
     display: block;
-    /*шото кріво с марлжином, проверіть;*/
-    margin: 48px auto 188px auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .hero-button:hover, .hero-button:focus {
     background-color: #404BBF;
 }
 /*!pros section 2*/
+.pros section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -134,12 +154,21 @@ button {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+.pros-list {
+gap: 24px;
+}
+
+.pros-list-item {
+flex-basis: calc((100% - 3 * 24px)
+  }
+
 .pros-subheading {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .pros-text {
     font-size: 16px;
@@ -150,6 +179,9 @@ button {
 /*!team section 3*/
 .team-section {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
 }
 .team-heading {
     color: #2e2f42;
@@ -158,6 +190,15 @@ button {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+.team-member {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .team-list-item {
@@ -169,6 +210,8 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center; 
+    margin-bottom: 8px;
 }
 .team-text {
     line-height: 1.5;
@@ -177,6 +220,24 @@ button {
 }
 
 /*!portfolio section 4*/
+
+.portfolio-section {
+    padding-top: 120;
+    padding-bottom: 120;
+}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.portfolio-sample {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    
+}
+
 .portfolio-logo {
     font-size: 36px;
     line-height: 1.11;
@@ -184,6 +245,7 @@ button {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .portfolio-subheading {
     font-weight: 500;
@@ -191,6 +253,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .portfolio-text {
     line-height: 1.5;
@@ -200,6 +263,12 @@ button {
 /*!footer section*/
 .basement {
     background-color:  #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-basement-accent {
@@ -209,6 +278,7 @@ button {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 
