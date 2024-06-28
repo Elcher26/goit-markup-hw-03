@@ -16,6 +16,9 @@ ul > li {
     text-decoration: none;
     list-style-type: none;
 }
+a {
+    text-decoration: none;
+}
 
 .container {
     width: 1158px;
@@ -63,9 +66,6 @@ ul > li {
     padding-top: 24px;
     padding-bottom: 24px;
 }
-.nav-list-last-item {
-    margin-right: 0px;
-}
 
 .address {
     font-style: normal;
@@ -103,8 +103,8 @@ ul > li {
 /*!hero section 1*/
 .hero-section {
     background-color: #2e2f42;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .hero-logo {
     font-size: 56px;
