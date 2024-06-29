@@ -246,6 +246,7 @@ ul, ol {
     column-gap: 24px;
     row-gap: 48px;
 }
+
 .portfolio-list-item {
     width: calc((100% - 48px) / 3);
 }
@@ -262,6 +263,7 @@ ul, ol {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .portfolio-text {
     line-height: 1.5;
