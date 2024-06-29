@@ -33,7 +33,7 @@ ul, ol {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    border: 1px solid red;
+    outline: 1px solid purple;
 }
 .section {
     padding-top: 120px;
@@ -117,10 +117,11 @@ ul, ol {
 .hero-logo {
     font-size: 56px;
     line-height: 1.07; 
-    text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     max-width: 496px;
+    text-align: center;
+    margin: 0 auto 48px auto;
 }
 .hero-button {
     background-color: #4D5AE5;
@@ -135,7 +136,10 @@ ul, ol {
     min-width: 169px;
     height: 56px;
     border: none;
-    border-radius: 4px; 
+    border-radius: 4px;
+    margin: 0 auto 48px auto;
+    
+    
 }
 .hero-button:hover, .hero-button:focus {
     background-color: #404BBF;
@@ -283,6 +287,7 @@ ul, ol {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 ul > li {
