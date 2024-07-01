@@ -57,11 +57,17 @@ ul, ol {
     letter-spacing: 0.03em;
     color: #4d5ae5;
     margin-right: 76px;
+    /*проверяем*/
+    display: inline-block;
+    
 }
-.header-container {
+/*.header-container {
     display: flex;
     align-items: center;
-}
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}*/
 
 .logo-header-accent {
     color: #2e2f42;
@@ -81,6 +87,7 @@ ul, ol {
 
 .address {
     font-style: normal;
+    
 }
 .address-list {
     display: flex;
