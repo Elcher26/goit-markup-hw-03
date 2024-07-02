@@ -1,10 +1,10 @@
-body {
+body {    
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
     /*скид стиля браузера на марджін*/
     margin: 0;
-
+}
 
 /* reset */
 
@@ -33,7 +33,6 @@ a {
   text-decoration: none;
 }
 
-
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -47,9 +46,9 @@ a {
 }
 
 /*header section*/
+
 .page-header-general {
     border-bottom: 1px solid #e7e9fc;
-    background-color: yellowgreen;
 }
   
   .header-container {
