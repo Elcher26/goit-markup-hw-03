@@ -79,11 +79,7 @@ a {
 .header-logo .logo-accent {
     color: #2e2f42;
 }
-  /*проверить єту частину*/
-/*.footer-logo .logo-part {
-    color: #f4f4fd;
-}
-*/
+
   
 .nav-list {
     display: flex;
@@ -209,6 +205,7 @@ a {
 .team-section {
     padding-top: 120px;
     padding-bottom: 120px;
+    background-color: #f4f4fd;
 }
 .team-heading {
     color: #2e2f42;
